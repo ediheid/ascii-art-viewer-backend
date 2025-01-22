@@ -40,10 +40,10 @@ app.post("/upload", upload.single("file"), (req, res) => {
 
 // WebSocket connection
 io.on("connection", (socket) => {
-  console.log("Client connected");
+  console.info("Client connected");
 
   socket.on("disconnect", () => {
-    console.log("Client disconnected");
+    console.info("Client disconnected");
   });
 });
 
@@ -76,5 +76,5 @@ function processFile(filePath, interval) {
 // Start the server
 const PORT = 3000;
 server.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.info(`Server is running on http://localhost:${PORT}`);
 });
