@@ -29,7 +29,7 @@ This is the **backend** for the ASCII Art Printer app. It handles file uploads, 
 ## Installation and Setup
 
 1. Download the ZIP file and extract it to a folder of your choice.
-2. Install dependencies:
+2. Install dependencies: (check .nvmrc for node version)
    ```bash
    npm install
    ```
