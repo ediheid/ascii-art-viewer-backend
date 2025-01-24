@@ -39,5 +39,5 @@ app.set("io", io);
 
 // Start the server
 server.listen(PORT, () => {
-  console.info(`Server is running on ${CLIENT_ORIGIN}:${PORT}`);
+  console.info(`Server is running on http://localhost::${PORT}`);
 });
