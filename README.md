@@ -6,7 +6,7 @@ This is the **backend** for the ASCII Art Printer app. It handles file uploads, 
 
 ### Notes:
 
-- I want to emphasise that my primary focus for this task was on the **frontend development**, showcasing my ability to work with real-time payloads, styling, and handling the user experience.
+- I want to emphasise that my primary focus for this project is on the **frontend development**, showcasing my ability to work with real-time payloads, styling, and handling the user experience.
 - While I implemented the backend using Node.js, it hasn't been heavily optimized, refactored into TypeScript, or modularized. I approached it as a functional solution to meet the app's requirements.
 - I included extensive comments in the backend code for clarity and my own learning.
 
@@ -21,14 +21,14 @@ This is the **backend** for the ASCII Art Printer app. It handles file uploads, 
 
 ## Prerequisites
 
-- **Node.js** (version 14 or higher is recommended)
+- **Node.js** (node version in `.nvmrc` file)
 - **npm** (comes with Node.js)
 
 ---
 
 ## Installation and Setup
 
-1. Download the ZIP file and extract it to a folder of your choice.
+1. Clone repository to a folder of your choice.
 2. Install dependencies: (check .nvmrc for node version)
    ```bash
    npm install
